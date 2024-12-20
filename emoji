@@ -1,0 +1,14 @@
+emoji = {
+    "😀": "happy",
+    "😮": "shocked",
+    "☹️": "sad",
+    "🤔": "inquisitive"
+}
+def emoji_to_text(emoji_input):
+    return emoji.get(emoji_input, "Unknown Emoji")
+
+print("Welcome to the Emoji Name generator")
+emoji_input = input("Enter any emoji: ")
+
+text_output = emoji_to_text(emoji_input)
+print(f"The meaning of the emoji is {text_output}")
