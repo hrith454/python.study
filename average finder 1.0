@@ -1,0 +1,18 @@
+def average_of_two_numbers():
+    print("This program calculates the average of two numbers.")
+    
+    try:
+        # Input two numbers from the user
+        num1 = float(input("Enter the 1st number: "))
+        num2 = float(input("Enter the 2nd number: "))
+        
+        # Calculate the average
+        average = (num1 + num2) / 2
+        
+        # Display the result
+        print("The average of the two numbers is:", average)
+    except ValueError:
+        print("Error: Please enter valid numbers.")
+
+# Call the function
+average_of_two_numbers()
