@@ -1,0 +1,5 @@
+print("This code will convert USD to INR")
+conversion_rate = 86.5
+usd = int(input("Enter the amount in USD: "))
+inr = usd * conversion_rate
+print(f"The equivalent amount in INR is: {inr}")
